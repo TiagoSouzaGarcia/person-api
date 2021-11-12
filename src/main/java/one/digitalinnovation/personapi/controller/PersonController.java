@@ -13,8 +13,6 @@ public class PersonController {
 
     @GetMapping
     public String getBook() {
-        Person person = new Person();
-        person.set
         return "API Test!";
     }
 
